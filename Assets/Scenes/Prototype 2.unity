@@ -545,7 +545,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8248ed7fa441343a58b7c6907364fd16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalPrefabs: []
+  animalPrefabs:
+  - {fileID: 6172747367395498352, guid: 8a147d15fbc6d4dc693e8848981e4d48, type: 3}
+  - {fileID: 139992843866588952, guid: 847404824855341c28a18e927a6fac53, type: 3}
+  - {fileID: 7915877836890498404, guid: 30c9d5e0828554e77b25682a897ac49c, type: 3}
 --- !u!1 &759190268 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6172747367395498352, guid: 8a147d15fbc6d4dc693e8848981e4d48, type: 3}
@@ -839,6 +842,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5240764347807313578, guid: 18b4e1bc6661c4e2ca443664b3126390, type: 3}
+      propertyPath: speed
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 5240764348252592140, guid: 18b4e1bc6661c4e2ca443664b3126390, type: 3}
       propertyPath: m_Name
       value: Food_Steak_01
